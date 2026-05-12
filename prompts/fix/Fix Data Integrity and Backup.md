@@ -2,7 +2,7 @@ I need you to thoroughly review and fix all real data integrity and backup issue
 
 Scope:
 
-- Review the report at `result\result-Reliability and Stability .md`
+- Review the report at `system-prompt-qa-suite\result\result-Reliability and Stability .md`
   - Verify each integrity defect (missing constraints, inconsistent writes, untested backup, missing checksums) is reproducible and leads to data corruption/loss
   - Remove any false positives (e.g., intentional soft delete with retention)
   - For confirmed issues, implement proper production-grade fixes (add foreign keys, enable WAL archiving, test restore, add checksums) — no temporary patches
@@ -20,7 +20,7 @@ After applying fixes:
 
 Standards:
 
-- Follow the Source of Truth: `wiki\00-source-of-truth.md`
+- Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
 - If code/schemas deviate from the Wiki → refactor to match the Wiki
 - If current implementation is better → update the Wiki first
 

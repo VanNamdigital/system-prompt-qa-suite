@@ -57,4 +57,4 @@ The point (e.g., number of errors, seconds of waiting) after which 50% of users 
 G. PRIORITIZED REMEDIATION ROADMAP
 Critical: fix form validation without page reload. High: add undo for delete. Medium: improve keyboard navigation.
 
-Write the results and update them to the folder result\result-Usability.md
+Write the results and update them to the folder system-prompt-qa-suite\result\result-Usability.md

@@ -76,6 +76,6 @@ G. PRIORITIZED REMEDIATION ROADMAP
 Organized by Critical / High / Medium / Low, with specific code patches, configuration changes, or architectural redesigns needed to close each gap.
 
 ---
-Write the results and update them to the folder result\result-Security.md
+Write the results and update them to the folder system-prompt-qa-suite\result\result-Security.md
 
 NO MARKETING SPEAK. NO ASSUMPTIONS. ONLY TECHNICAL CERTAINTY BASED ON THE CODE, CONFIG, AND LIVE BEHAVIOR PROVIDED TO YOU.

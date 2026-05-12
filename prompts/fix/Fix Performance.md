@@ -2,7 +2,7 @@ I need you to thoroughly review and fix all real performance bottlenecks in the 
 
 Scope:
 
-- Review the report at `result\result-Performance.md`
+- Review the report at `system-prompt-qa-suite\result\result-Performance.md`
   - Verify each performance defect (slow queries, high latency, low throughput) is reproducible under realistic load
   - Remove any false positives (e.g., acceptable p95 under expected concurrency)
   - For confirmed issues, implement proper production-grade fixes (indexes, caching, query optimization, connection pooling) — no temporary patches
@@ -20,7 +20,7 @@ After applying fixes:
 
 Standards:
 
-- Follow the Source of Truth: `wiki\00-source-of-truth.md`
+- Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
 - If code deviates from the Wiki → refactor code to match the Wiki
 - If code is better than the Wiki → update the Wiki first, then align the code accordingly
 

@@ -55,4 +55,4 @@ Exact condition causing unrecoverable crash (e.g., “When the database connecti
 G. PRIORITIZED REMEDIATION ROADMAP
 Critical: add circuit breaker for Redis calls. High: implement graceful degradation (serve stale cache). Medium: set memory limits with safe OOM score.
 
-Write the results and update them to the folder result\result-Reliability and Stability .md
+Write the results and update them to the folder system-prompt-qa-suite\result\result-Reliability and Stability .md

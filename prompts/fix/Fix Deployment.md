@@ -2,7 +2,7 @@ I need you to thoroughly review and fix all real deployment and configuration fl
 
 Scope:
 
-- Review the report at `result\result-Deployment.md`
+- Review the report at `system-prompt-qa-suite\result\result-Deployment.md`
   - Verify each config defect (hardcoded secrets, missing IaC, environment drift, unsafe rollout) is real and exploitable
   - Remove any false positives (e.g., deliberate design choices)
   - For confirmed issues, implement proper production-grade fixes (move secrets to vault, use environment variables, add health checks, rolling update strategies) — no temporary patches
@@ -20,7 +20,7 @@ After applying fixes:
 
 Standards:
 
-- Follow the Source of Truth: `wiki\00-source-of-truth.md`
+- Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
 - If code/devops files deviate from the Wiki → refactor to match the Wiki
 - If current config is better than the Wiki → update the Wiki first, then align
 

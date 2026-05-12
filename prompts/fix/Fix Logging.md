@@ -2,7 +2,7 @@ I need you to thoroughly review and fix all real logging and observability gaps 
 
 Scope:
 
-- Review the report at `result\result-Logging.md`
+- Review the report at `system-prompt-qa-suite\result\result-Logging.md`
   - Verify each observability defect (missing structured logs, no correlation IDs, absent metrics, untraceable dependencies, noisy alerts) is real and impacts incident response time
   - Remove any false positives (e.g., low-severity missing metric that is not critical)
   - For confirmed issues, implement proper production-grade fixes (add JSON logging with request_id, instrument HTTP/RPC calls with histograms, propagate trace context, create actionable alerts) — no temporary patches
@@ -21,7 +21,7 @@ After applying fixes:
 
 Standards:
 
-- Follow the Source of Truth: `wiki\00-source-of-truth.md`
+- Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
 - If code deviates from the Wiki → refactor to match the Wiki
 - If code is better (e.g., more detailed logging) → update the Wiki first
 

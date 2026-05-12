@@ -2,7 +2,7 @@ I need you to thoroughly review and fix all real functional defects in the proje
 
 Scope:
 
-- Review the report at `result\result-Functional.md`
+- Review the report at `system-prompt-qa-suite\result\result-Functional.md`
   - Verify each functional defect is reproducible and violates business requirements
   - Remove any false positives (e.g., expected behavior mistaken as bug)
   - For confirmed issues, implement proper production-grade fixes (no temporary patches)
@@ -21,7 +21,7 @@ After applying fixes:
 
 Standards:
 
-- Follow the Source of Truth: `wiki\00-source-of-truth.md`
+- Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
 - If code deviates from the Wiki → refactor code to match the Wiki
 - If code is better than the Wiki → update the Wiki first, then align the code accordingly
 

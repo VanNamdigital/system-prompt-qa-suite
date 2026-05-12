@@ -2,7 +2,7 @@ I need you to thoroughly review and fix all real reliability and stability issue
 
 Scope:
 
-- Review the report at `result\result-Reliability-Stability.md`
+- Review the report at `system-prompt-qa-suite\result\result-Reliability-Stability.md`
   - Verify each stability defect (crash loops, OOM mishandling, missing circuit breakers, dependency hang) is reproducible under failure injection
   - Remove any false positives (e.g., acceptable crash with auto-restart)
   - For confirmed issues, implement proper production-grade fixes (timeouts, retries with backoff, circuit breakers, graceful degradation, resource limits) — no temporary patches
@@ -20,7 +20,7 @@ After applying fixes:
 
 Standards:
 
-- Follow the Source of Truth: `wiki\00-source-of-truth.md`
+- Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
 - If code deviates from the Wiki → refactor to match the Wiki
 - If code is better → update the Wiki first
 

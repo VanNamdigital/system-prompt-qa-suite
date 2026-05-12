@@ -2,7 +2,7 @@ I need you to thoroughly review and fix all real scalability bottlenecks in the 
 
 Scope:
 
-- Review the report at `result\result-Scalability.md`
+- Review the report at `system-prompt-qa-suite\result\result-Scalability.md`
   - Verify each scalability defect (statelessness violation, global lock, missing sharding key, O(n²) algorithm, connection limit) is reproducible under increased load or data volume
   - Remove any false positives (e.g., acceptable single master for expected size)
   - For confirmed issues, implement proper production-grade fixes (make stateless, add pagination, implement caching, sharding preparation, index optimization) — no temporary patches
@@ -20,7 +20,7 @@ After applying fixes:
 
 Standards:
 
-- Follow the Source of Truth: `wiki\00-source-of-truth.md`
+- Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
 - If code deviates from the Wiki → refactor to match the Wiki
 - If code is better → update the Wiki first
 

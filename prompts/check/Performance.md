@@ -52,4 +52,4 @@ Exact numbers: “At 120 req/s, database connection pool hits 100% and all new r
 G. PRIORITIZED REMEDIATION ROADMAP
 Critical: add index on `created_at`. High: implement pagination. Medium: connection pool tuning.
 
-Write the results  and update them to the folder result\result-Performance.md
+Write the results  and update them to the folder system-prompt-qa-suite\result\result-Performance.md

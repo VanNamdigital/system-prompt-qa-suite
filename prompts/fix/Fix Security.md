@@ -3,7 +3,7 @@
   Scope:
 
 
-  * Review the report at `result\result-Security.md
+  * Review the report at `system-prompt-qa-suite\result\result-Security.md
 
     * Verify each vulnerability is real, reproducible, and exploitable
     * Remove any false positives
@@ -21,7 +21,7 @@
 
   Standards:
 
-  * Follow the Source of Truth: `wiki\00-source-of-truth.md`
+  * Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
   * If code deviates from the Wiki → refactor code to match the Wiki
   * If code is better than the Wiki → update the Wiki first, then align the code accordingly
 

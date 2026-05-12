@@ -2,7 +2,7 @@ I need you to thoroughly review and fix all real usability issues in the project
 
 Scope:
 
-- Review the report at `result\result-Usability.md`
+- Review the report at `system-prompt-qa-suite\result\result-Usability.md`
   - Verify each usability defect (confusing workflow, missing validation feedback, poor error recovery, accessibility violation) is reproducible by a human user
   - Remove any false positives (e.g., intentional design choice that does not hinder most users)
   - For confirmed issues, implement proper production-grade fixes (add inline validation, preserve form state, provide undo, improve keyboard navigation, WCAG compliance) — no temporary patches
@@ -20,7 +20,7 @@ After applying fixes:
 
 Standards:
 
-- Follow the Source of Truth: `wiki\00-source-of-truth.md`
+- Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
 - If UI code deviates from the Wiki → refactor to match the Wiki
 - If current UX is better → update the Wiki first
 
