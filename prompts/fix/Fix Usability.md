@@ -21,7 +21,7 @@ After applying fixes:
 
 Standards:
 
-- Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
+- Follow the Source of Truth: `wiki\00-source-of-truth.md`
 - If UI code deviates from the Wiki → refactor to match the Wiki
 - If current UX is better → update the Wiki first
 

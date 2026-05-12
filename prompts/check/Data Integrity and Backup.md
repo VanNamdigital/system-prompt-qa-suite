@@ -4,7 +4,7 @@ Core Principle: Any data operation must be either durable or reversible. You pro
 
 ---
 
-- Review the 00-source-of-truth.md at `system-prompt-qa-suite\wiki\00-source-of-truth.md`
+- Review the 00-source-of-truth.md at `wiki\00-source-of-truth.md`
 - Write the check report to `system-prompt-qa-suite\prompts\report\report-Data Integrity and Backup.md` documenting the findings after the audit
 
 SCOPE OF AUDIT

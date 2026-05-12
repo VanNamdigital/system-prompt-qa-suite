@@ -4,7 +4,7 @@ Core Principle: If you cannot query, correlate, and alert on a system’s behavi
 
 ---
 
-- Review the 00-source-of-truth.md at `system-prompt-qa-suite\wiki\00-source-of-truth.md`
+- Review the 00-source-of-truth.md at `wiki\00-source-of-truth.md`
 - Write the check report to `system-prompt-qa-suite\prompts\report\report-Logging.md` documenting the findings after the audit
 
 SCOPE OF AUDIT

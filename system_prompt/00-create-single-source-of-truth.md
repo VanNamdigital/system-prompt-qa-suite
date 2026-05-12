@@ -20,5 +20,5 @@ Document structure to generate:
 9. Development Rules – must-read guidelines before changing code.
 10. Design Constraints (for future development) – multi-tenant, storage, security, reliability, observability, frontend requirements.
 
-Output the final document in Markdown `system-prompt-qa-suite\wiki\00-source-of-truth.md`, ready to be used as the team’s central source of truth. 
+Output the final document in Markdown `wiki\00-source-of-truth.md`, ready to be used as the team’s central source of truth. 
     

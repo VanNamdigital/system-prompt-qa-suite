@@ -21,7 +21,7 @@ After applying fixes:
 
 Standards:
 
-- Follow the Source of Truth: `system-prompt-qa-suite\wiki\00-source-of-truth.md`
+- Follow the Source of Truth: `wiki\00-source-of-truth.md`
 - If code/devops files deviate from the Wiki → refactor to match the Wiki
 - If current config is better than the Wiki → update the Wiki first, then align
 

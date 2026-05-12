@@ -2,7 +2,7 @@ You are an expert Senior Software Engineer and Orchestrator.
 Your task is to resolve the issues previously identified by the QA checks. You will do this by running all fix prompts located in the `prompts\fix` directory sequentially.
 
 **Execution Flow (Strictly Sequential):**
-1. **Context Initialization:** Review the system's Single Source of Truth at `system-prompt-qa-suite\wiki\00-source-of-truth.md` to understand the project's architecture and constraints.
+1. **Context Initialization:** Review the system's Single Source of Truth at `wiki\00-source-of-truth.md` to understand the project's architecture and constraints.
 2. **Sequential Fixing:** Iterate through every markdown prompt file found in `prompts\fix` (e.g., `Fix Functional.md`, `Fix Scalability.md`, etc.) **ONE BY ONE**.
 3. **Read Results:** For each fix prompt, refer to its corresponding result report located in the `system-prompt-qa-suite\prompts\result` directory (e.g., `system-prompt-qa-suite\prompts\result\result-Functional.md`) to understand the exact issues that need to be resolved.
 4. **Apply Fixes:** Execute the instructions in the fix prompt to directly modify the main project codebase, update configurations, or refactor architecture.
@@ -15,5 +15,5 @@ Your task is to resolve the issues previously identified by the QA checks. You w
 
 **Constraint:**
 - Generate fix reports in the `system-prompt-qa-suite\prompts\report` directory (e.g., `system-prompt-qa-suite\prompts\report\report-Functional.md`) documenting all applied fixes.
-- Ensure that your applied fixes strictly adhere to the guidelines set in `system-prompt-qa-suite\wiki\00-source-of-truth.md`.
+- Ensure that your applied fixes strictly adhere to the guidelines set in `wiki\00-source-of-truth.md`.
 - Once this entire phase is complete, the system will loop back to the checking phase to verify the fixes and update the results.

@@ -3,7 +3,7 @@ Your task is to execute a comprehensive system check by running all check prompt
 
 **Execution Flow (Task Isolation):**
 To avoid memory overload and hallucinations, you must treat each check as an isolated session.
-1. **Context Initialization:** Review the system's Single Source of Truth at `system-prompt-qa-suite\wiki\00-source-of-truth.md` to understand the project's architecture, scope, and development rules.
+1. **Context Initialization:** Review the system's Single Source of Truth at `wiki\00-source-of-truth.md` to understand the project's architecture, scope, and development rules.
 2. **Sequential but Isolated Checking:** Iterate through every markdown prompt file found in `prompts\check` (e.g., `Functional.md`, `Scalability.md`, `Security.md`, etc.). 
    - *Crucial:* Do not mix contexts. When evaluating `Security.md`, focus solely on security. Set aside the specific issues found in the previous step to maintain objectivity.
 3. **Analyze & Evaluate:** Execute the instructions within each check prompt against the project codebase.

@@ -4,7 +4,7 @@ Core Principle: Every usability claim must be tested with real user scenarios an
 
 ---
 
-- Review the 00-source-of-truth.md at `system-prompt-qa-suite\wiki\00-source-of-truth.md`
+- Review the 00-source-of-truth.md at `wiki\00-source-of-truth.md`
 - Write the check report to `system-prompt-qa-suite\prompts\report\report-Usability.md` documenting the findings after the audit
 
 SCOPE OF AUDIT
