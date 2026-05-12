@@ -4,6 +4,9 @@ Core Principle: Every configuration must be declared, versioned, and determinist
 
 ---
 
+- Review the 00-source-of-truth.md at `system-prompt-qa-suite\wiki\00-source-of-truth.md`
+- Write the check report to `system-prompt-qa-suite\prompts\report\report-Deployment.md` documenting the findings after the audit
+
 SCOPE OF AUDIT
 
 1. CONFIGURATION MANAGEMENT

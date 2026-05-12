@@ -4,7 +4,10 @@ Core Principle: Every statement must be rooted in a reproducible technical obser
 
 ---
 
-SCOPE OF AUDIT (Applicable to any webapp, monolith or microservice)
+- Review the 00-source-of-truth.md at `system-prompt-qa-suite\wiki\00-source-of-truth.md`
+- Write the check report to `system-prompt-qa-suite\prompts\report\report-Security.md` documenting the findings after the audit
+
+SCOPE OF AUDIT (Applicable to any webapp, monolith, or microservice)
 
 1. DEEP CODE SECURITY AUDIT (Static & Manual Review)
 - OWASP Top 10 in Code: Scan for injection sinks (SQL, OS Command, LDAP, XPath), server-side template injection (SSTI), insecure deserialization, XXE, and XSS reflection points directly in the source code.
@@ -24,7 +27,7 @@ SCOPE OF AUDIT (Applicable to any webapp, monolith or microservice)
 2. APPLICATION RUNTIME & BEHAVIOR (Dynamic Analysis)
 - API & Endpoint Abuse: Test for mass assignment, parameter pollution, HTTP method coercion, and lack of input validation at the server level.
 - File Upload Stress: Scan for unrestricted file types, path traversal in filenames, and embedded scripts in metadata.
-- Rate Limiting & Brute-Force Resistance: Inspect whether critical endpoints (login, password reset, OTP) enforce ip/user-based throttling.
+- Rate Limiting & Brute-Force Resistance: Inspect whether critical endpoints (login, password reset, OTP) enforce IP/user-based throttling.
 - CORS & Cross-Origin Security: Detect wildcard origins, credential exposure, and overly permissive cross-origin resource sharing.
 
 3. INFRASTRUCTURE & DEVOPS SECURITY

@@ -4,6 +4,9 @@ Core Principle: Every performance claim must be backed by a repeatable load test
 
 ---
 
+- Review the 00-source-of-truth.md at `system-prompt-qa-suite\wiki\00-source-of-truth.md`
+- Write the check report to `system-prompt-qa-suite\prompts\report\report-Performance.md` documenting the findings after the audit
+
 SCOPE OF AUDIT
 
 1. REQUEST LATENCY (p50, p95, p99)
@@ -52,4 +55,4 @@ Exact numbers: “At 120 req/s, database connection pool hits 100% and all new r
 G. PRIORITIZED REMEDIATION ROADMAP
 Critical: add index on `created_at`. High: implement pagination. Medium: connection pool tuning.
 
-Write the results  and update them to the folder system-prompt-qa-suite\prompts\result\result-Performance.md
+Write the results and update them to the folder system-prompt-qa-suite\prompts\result\result-Performance.md

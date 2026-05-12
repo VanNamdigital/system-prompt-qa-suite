@@ -4,6 +4,9 @@ Core Principle: Scalability is not just performance under load – it is the abi
 
 ---
 
+- Review the 00-source-of-truth.md at `system-prompt-qa-suite\wiki\00-source-of-truth.md`
+- Write the check report to `system-prompt-qa-suite\prompts\report\report-Scalability.md` documenting the findings after the audit
+
 SCOPE OF AUDIT
 
 1. DATABASE SCALABILITY

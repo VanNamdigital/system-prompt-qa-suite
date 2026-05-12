@@ -1,4 +1,4 @@
- I need you to thoroughly review and fix all real security vulnerabilities in the project.
+I need you to thoroughly review and fix all real security vulnerabilities in the project.
 
   Scope:
 

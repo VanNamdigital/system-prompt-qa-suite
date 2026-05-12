@@ -4,6 +4,9 @@ Core Principle: Every functional claim must be verifiable by a repeatable sequen
 
 ---
 
+- Review the 00-source-of-truth.md at `system-prompt-qa-suite\wiki\00-source-of-truth.md`
+- Write the check report to `system-prompt-qa-suite\prompts\report\report-Functional.md` documenting the findings after the audit
+
 SCOPE OF AUDIT
 
 1. WORKFLOW INTEGRITY
@@ -13,7 +16,7 @@ SCOPE OF AUDIT
 
 2. INPUT & OUTPUT CONTRACT
 - API request/response validation against OpenAPI/Swagger (missing fields, wrong types, extra fields).
-- Boundar values, nulls, empty arrays, and Unicode injection in every form field.
+- Boundary values, nulls, empty arrays, and Unicode injection in every form field.
 - Idempotency: repeated identical requests must not create duplicate resources.
 
 3. ERROR HANDLING & FEEDBACK
