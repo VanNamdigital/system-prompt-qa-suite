@@ -2,7 +2,8 @@ I need you to thoroughly review and fix all real usability issues in the project
 
 Scope:
 
-- Review the report at `system-prompt-qa-suite\result\result-Usability.md`
+- Review the report at `system-prompt-qa-suite\prompts\result\result-Usability.md`
+- Write the fix report to `system-prompt-qa-suite\prompts\report\report-Usability.md` documenting all applied fixes
   - Verify each usability defect (confusing workflow, missing validation feedback, poor error recovery, accessibility violation) is reproducible by a human user
   - Remove any false positives (e.g., intentional design choice that does not hinder most users)
   - For confirmed issues, implement proper production-grade fixes (add inline validation, preserve form state, provide undo, improve keyboard navigation, WCAG compliance) — no temporary patches

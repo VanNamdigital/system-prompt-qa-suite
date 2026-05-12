@@ -54,4 +54,4 @@ The exact condition that makes recovery impossible (e.g., “After 7 days withou
 G. PRIORITIZED REMEDIATION ROADMAP
 Critical: enable WAL archiving and test restore. High: implement soft delete everywhere. Medium: add checksums for file uploads.
 
-Write the results and update them to the folder system-prompt-qa-suite\result\result-Data Integrity and Backup.md
+Write the results and update them to the folder system-prompt-qa-suite\prompts\result\result-Data Integrity and Backup.md

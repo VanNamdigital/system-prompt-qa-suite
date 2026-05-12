@@ -2,7 +2,8 @@ I need you to thoroughly review and fix all real functional defects in the proje
 
 Scope:
 
-- Review the report at `system-prompt-qa-suite\result\result-Functional.md`
+- Review the report at `system-prompt-qa-suite\prompts\result\result-Functional.md`
+- Write the fix report to `system-prompt-qa-suite\prompts\report\report-Functional.md` documenting all applied fixes
   - Verify each functional defect is reproducible and violates business requirements
   - Remove any false positives (e.g., expected behavior mistaken as bug)
   - For confirmed issues, implement proper production-grade fixes (no temporary patches)

@@ -54,6 +54,6 @@ The exact data volume or request rate at which the system becomes unusable (e.g.
 G. PRIORITIZED REMEDIATION ROADMAP
 Critical: replace count(*) with estimated count or precomputed. High: implement shard-aware cache. Medium: move sessions out of local memory.
 
-Write the results and update them to the folder system-prompt-qa-suite\result\result-Scalability.md
+Write the results and update them to the folder system-prompt-qa-suite\prompts\result\result-Scalability.md
 
 

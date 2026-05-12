@@ -2,7 +2,8 @@ I need you to thoroughly review and fix all real deployment and configuration fl
 
 Scope:
 
-- Review the report at `system-prompt-qa-suite\result\result-Deployment.md`
+- Review the report at `system-prompt-qa-suite\prompts\result\result-Deployment.md`
+- Write the fix report to `system-prompt-qa-suite\prompts\report\report-Deployment.md` documenting all applied fixes
   - Verify each config defect (hardcoded secrets, missing IaC, environment drift, unsafe rollout) is real and exploitable
   - Remove any false positives (e.g., deliberate design choices)
   - For confirmed issues, implement proper production-grade fixes (move secrets to vault, use environment variables, add health checks, rolling update strategies) — no temporary patches

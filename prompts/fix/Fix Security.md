@@ -3,7 +3,8 @@
   Scope:
 
 
-  * Review the report at `system-prompt-qa-suite\result\result-Security.md
+  * Review the report at `system-prompt-qa-suite\prompts\result\result-Security.md`
+  * Write the fix report to `system-prompt-qa-suite\prompts\report\report-Security.md` documenting all applied fixes
 
     * Verify each vulnerability is real, reproducible, and exploitable
     * Remove any false positives

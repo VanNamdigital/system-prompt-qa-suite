@@ -2,7 +2,8 @@ I need you to thoroughly review and fix all real reliability and stability issue
 
 Scope:
 
-- Review the report at `system-prompt-qa-suite\result\result-Reliability-Stability.md`
+- Review the report at `system-prompt-qa-suite\prompts\result\result-Reliability-Stability.md`
+- Write the fix report to `system-prompt-qa-suite\prompts\report\report-Reliability-Stability.md` documenting all applied fixes
   - Verify each stability defect (crash loops, OOM mishandling, missing circuit breakers, dependency hang) is reproducible under failure injection
   - Remove any false positives (e.g., acceptable crash with auto-restart)
   - For confirmed issues, implement proper production-grade fixes (timeouts, retries with backoff, circuit breakers, graceful degradation, resource limits) — no temporary patches

@@ -2,7 +2,8 @@ I need you to thoroughly review and fix all real data integrity and backup issue
 
 Scope:
 
-- Review the report at `system-prompt-qa-suite\result\result-Reliability and Stability .md`
+- Review the report at `system-prompt-qa-suite\prompts\result\result-Reliability and Stability .md`
+- Write the fix report to `system-prompt-qa-suite\prompts\report\report-Data Integrity and Backup.md` documenting all applied fixes
   - Verify each integrity defect (missing constraints, inconsistent writes, untested backup, missing checksums) is reproducible and leads to data corruption/loss
   - Remove any false positives (e.g., intentional soft delete with retention)
   - For confirmed issues, implement proper production-grade fixes (add foreign keys, enable WAL archiving, test restore, add checksums) — no temporary patches

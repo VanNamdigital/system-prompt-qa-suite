@@ -51,4 +51,4 @@ Describe the trigger that causes unrecoverable deployment state (e.g., “If dat
 G. PRIORITIZED REMEDIATION ROADMAP
 Critical: move secrets to vault. High: add rolling update strategy. Medium: lock Terraform provider versions.
 
-Write the results and update them to the folder system-prompt-qa-suite\result\result-Deployment.md
+Write the results and update them to the folder system-prompt-qa-suite\prompts\result\result-Deployment.md

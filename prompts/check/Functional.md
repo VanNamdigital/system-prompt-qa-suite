@@ -50,4 +50,4 @@ Describe the point at which state corruption becomes unrecoverable (e.g., “Aft
 G. PRIORITIZED REMEDIATION ROADMAP
 Critical / High / Medium / Low – specific code or test changes required.
 
-Write the results and update them to the folder system-prompt-qa-suite\result\result-Functional.md
+Write the results and update them to the folder system-prompt-qa-suite\prompts\result\result-Functional.md

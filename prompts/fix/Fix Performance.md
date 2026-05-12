@@ -2,7 +2,8 @@ I need you to thoroughly review and fix all real performance bottlenecks in the 
 
 Scope:
 
-- Review the report at `system-prompt-qa-suite\result\result-Performance.md`
+- Review the report at `system-prompt-qa-suite\prompts\result\result-Performance.md`
+- Write the fix report to `system-prompt-qa-suite\prompts\report\report-Performance.md` documenting all applied fixes
   - Verify each performance defect (slow queries, high latency, low throughput) is reproducible under realistic load
   - Remove any false positives (e.g., acceptable p95 under expected concurrency)
   - For confirmed issues, implement proper production-grade fixes (indexes, caching, query optimization, connection pooling) — no temporary patches

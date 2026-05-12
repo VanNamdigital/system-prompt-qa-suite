@@ -58,4 +58,4 @@ Describe the exact failure mode that would render all telemetry useless (e.g., â
 G. PRIORITIZED REMEDIATION ROADMAP
 Critical: add correlation ID header propagation and log it. High: instrument DB queries with histograms. Medium: reduce alert noise by setting dynamic thresholds.
 
-Write the results and update them to the folder system-prompt-qa-suite\result\result-Logging.md
+Write the results and update them to the folder system-prompt-qa-suite\prompts\result\result-Logging.md

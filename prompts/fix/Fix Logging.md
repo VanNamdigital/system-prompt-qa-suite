@@ -2,11 +2,12 @@ I need you to thoroughly review and fix all real logging and observability gaps 
 
 Scope:
 
-- Review the report at `system-prompt-qa-suite\result\result-Logging.md`
+- Review the report at `system-prompt-qa-suite\prompts\result\result-Logging.md`
+- Write the fix report to `system-prompt-qa-suite\prompts\report\report-Logging.md` documenting all applied fixes
   - Verify each observability defect (missing structured logs, no correlation IDs, absent metrics, untraceable dependencies, noisy alerts) is real and impacts incident response time
   - Remove any false positives (e.g., low-severity missing metric that is not critical)
   - For confirmed issues, implement proper production-grade fixes (add JSON logging with request_id, instrument HTTP/RPC calls with histograms, propagate trace context, create actionable alerts) — no temporary patches
-- Ensure that an on-call engineer can answer “what broke, where, why” within 30 seconds using available telemetry
+- Ensure that an on-call engineer can answer "what broke, where, why" within 30 seconds using available telemetry
 
 After applying fixes:
 
