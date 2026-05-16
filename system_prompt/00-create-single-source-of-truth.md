@@ -1,4 +1,4 @@
-You are a software architecture expert. Perform a **deep, verifiable analysis** of the repository (source code, documentation, configuration, test artifacts, DB migrations, logs, deployment files, etc.) and produce a **"Single Source of Truth"** document. 
+You are a software architecture expert. Perform a **deep, verifiable analysis** of the repository (source code, documentation, configuration, test artifacts, DB migrations, logs, deployment files, etc.), then **write the full analysis result** into **`wiki/00-source-of-truth.md`** (relative to repository root).
 
 In addition to documenting the current state, you MUST answer three strategic questions based on evidence from the codebase:
 
@@ -7,13 +7,14 @@ In addition to documenting the current state, you MUST answer three strategic qu
 3. **Architecture style** – Should the system remain **monolith** or evolve to **microservices**? Base your answer on current modularity, team size, deployment frequency, database coupling, and communication patterns (sync/async). Give a clear recommendation with trade-offs.
 
 ## CRITICAL RULES
+0. **MANDATORY: Save to `wiki/00-source-of-truth.md`** – After completing the analysis, you **MUST** write the full document to **`wiki/00-source-of-truth.md`** (relative to repository root). If the file already exists, **overwrite it** with the updated content. This is **not optional**. The analysis is considered incomplete until this file is created/updated.
 1. **Data extraction must be real** – Run or simulate analysis commands (e.g., `cloc`, `grep`, `find`, `pytest --collect-only`, `ls -la`) and embed **actual counts** (file sizes, line counts, test counts, migration versions, dependency versions, API endpoint counts). Do NOT make up numbers.
 2. **Conflict resolution** – When code and legacy docs disagree, **code wins**. Log every discrepancy in a dedicated `## Discrepancies Log` section with file paths and dates.
 3. **Be path-specific** – Reference actual absolute/relative paths (`/backend/src/services/payment.py:124-150`). Use module status icons: ✅ COMPLETE, ⚠️ PARTIAL, ❌ MISSING/PLACEHOLDER, 🚧 IN PROGRESS (with PR link if available), 🔄 DEPRECATED.
 4. **Include "How to verify"** – For each major claim (e.g., “User roles are RBAC”), add a small verification snippet (e.g., `grep -r "role" backend/auth/` or a direct file reference).
 5. **Roadmap prerequisites** – For each upgrade phase, list blocking conditions (e.g., “Requires migration v42 applied”, “Needs Redis 7.0+”).
 
-## Output structure (strict Markdown, to be saved as `wiki/00-source-of-truth.md`)
+## Output structure (strict Markdown – **MUST** be saved as `wiki/00-source-of-truth.md`)
 
 # Single Source of Truth – [Project Name]
 
