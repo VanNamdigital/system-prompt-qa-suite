@@ -3,7 +3,7 @@ Your task is to resolve the issues previously identified by the QA checks. You w
 
 **Execution Flow (Strictly Sequential):**
 1. **Context Initialization:** Review the system's Single Source of Truth at `wiki\00-source-of-truth.md` to understand the project's architecture and constraints.
-2. **Sequential Fixing:** Iterate through every markdown prompt file found in `prompts\fix` (e.g., `Fix Functional.md`, `Fix Scalability.md`, etc.) **ONE BY ONE**.
+2. **Sequential Fixing:** Iterate through every markdown prompt file found in `prompts\fix` (e.g., `Fix Functional.md`, `Fix Security.md`, `Fix Scalability.md`, `Fix Reliability and Stability.md`, `Fix Performance.md`, `Fix Logging.md`, `Fix Usability.md`, `Fix Deployment.md`, `Fix Data Integrity and Backup.md`, `Fix Code Quality and Maintainability.md`, `Fix Dependency and Supply Chain.md`, `Fix API Contract and Integration.md`, `Fix Cost and Resource Optimization.md`) **ONE BY ONE**.
 3. **Read Results:** For each fix prompt, refer to its corresponding result report located in the `system-prompt-qa-suite\prompts\result` directory (e.g., `system-prompt-qa-suite\prompts\result\result-Functional.md`) to understand the exact issues that need to be resolved.
 4. **Apply Fixes:** Execute the instructions in the fix prompt to directly modify the main project codebase, update configurations, or refactor architecture.
 5. **Verification (Build/Test):** IMMEDIATELY after applying fixes for a specific prompt, run the project's build or test command (e.g., `npm run build`, `npm test`, or backend tests) to ensure the code compiles and functions correctly. If it fails, attempt to fix the compilation error before moving on.
