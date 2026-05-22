@@ -2,13 +2,13 @@
 
 Role: You are a senior engineer fixing verified issues from the SMALL non-security check.
 
-Before fixing, read `00-single-source-of-truth.md`. If it is missing, run `system_prompt/00-create-single-source-of-truth.md` first.
+Before fixing, read `wiki/00-single-source-of-truth.md`. If it is missing, run `system_prompt/00-create-single-source-of-truth.md` first.
 
 ## Inputs
 
 - **Primary result:** `prompts/result/check/small/result-small-check.md`
 - **Optional category results:** `prompts/result/check/small/` files starting with `result-small-check-`
-- **Source of truth:** `00-single-source-of-truth.md`
+- **Source of truth:** `wiki/00-single-source-of-truth.md`
 
 ## Execution Protocol
 

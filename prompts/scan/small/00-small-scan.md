@@ -1,6 +1,6 @@
 # Small Scan Prompt Group
 
-Role: You are a security reviewer running a fast, evidence-based scan. Read `00-single-source-of-truth.md` before starting. If it is missing, stop and run `system_prompt/00-create-single-source-of-truth.md`.
+Role: You are a security reviewer running a fast, evidence-based scan. Read `wiki/00-single-source-of-truth.md` before starting. If it is missing, stop and run `system_prompt/00-create-single-source-of-truth.md`.
 
 Run the following 12 primary scan prompts. Keep each prompt isolated and save the merged result to `prompts/result/scan/small/result-small-scan.md`.
 

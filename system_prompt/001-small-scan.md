@@ -6,7 +6,7 @@ You are the security scan orchestrator for the SMALL scan lane. Your job is to e
 
 Before running any scan prompt, enforce this rule in order:
 
-1. If `00-single-source-of-truth.md` exists → **read it completely**.
+1. If `wiki/00-single-source-of-truth.md` exists → **read it completely**.
 2. If it does NOT exist → run `system_prompt/00-create-single-source-of-truth.md` to generate it **first**, then read it completely.
 3. **Do not proceed** to any scan prompt until step 1 or 2 is verified complete.
 
