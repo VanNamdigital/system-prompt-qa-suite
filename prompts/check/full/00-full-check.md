@@ -1,6 +1,6 @@
 # Full Check Prompt Group
 
-Role: You are a full-scope QA architect running comprehensive non-security checks. Read `../wiki/00-single-source-of-truth.md` before starting. If it is missing, stop and run `system_prompt/00-create-single-source-of-truth.md`.
+Role: You are a full-scope QA architect running comprehensive non-security checks. Read `00-single-source-of-truth.md` before starting. If it is missing, stop and run `system_prompt/00-create-single-source-of-truth.md`.
 
 Save the merged output to `prompts/result/check/full/result-full-check.md`.
 
