@@ -1,6 +1,18 @@
 # System Prompt QA Suite
 
-A collection of structured prompts for automated QA checking, security scanning, and fix execution on software projects.
+System Prompt QA Suite is an AI skill and prompt workflow library for software QA, security scanning, code review, and fix execution with AI coding agents.
+
+Use it with Codex, Claude Code, ChatGPT, Cursor, Windsurf, and other AI coding assistants to run repeatable small/full scan, check, and fix workflows across software projects.
+
+## Tags
+
+`codex-skill` `claude-code-skill` `ai-skill` `ai-agent` `ai-coding-agent` `system-prompt` `prompt-engineering` `qa-automation` `code-review` `security-scan` `software-quality` `developer-tools`
+
+## Repository Metadata
+
+- **Description:** AI skill and system prompt suite for Codex, Claude Code, QA automation, security scanning, code review, and fix workflows.
+- **Website:** `https://github.com/VanNamdigital/system-prompt-qa-suite`
+- **Suggested GitHub topics:** `codex-skill`, `claude-code-skill`, `ai-skill`, `ai-agent`, `ai-coding-agent`, `system-prompt`, `prompt-engineering`, `qa-automation`, `code-review`, `security-scan`, `software-quality`, `developer-tools`
 
 ## Directory Structure
 
