@@ -5,20 +5,22 @@
 [![OpenAI Codex Skill](https://img.shields.io/badge/OpenAI%20Codex-Skill-black.svg)](#)
 [![Google Antigravity Skill](https://img.shields.io/badge/Google%20Antigravity-Skill-orange.svg)](#)
 [![Vibe Coding Skill](https://img.shields.io/badge/Vibe%20Coding-Skill-purple.svg)](#)
+[![OpenCode Skill](https://img.shields.io/badge/OpenCode-Skill-0ea5e9.svg)](#)
+[![Command Code Skill](https://img.shields.io/badge/Command%20Code-Skill-16a34a.svg)](#)
 
 System Prompt QA Suite is an AI skill and prompt workflow library for software QA, security scanning, code review, and fix execution with AI coding agents.
 
-Use it with Codex, Claude Code, ChatGPT, Cursor, Windsurf, Google Antigravity, and other vibe coding or AI coding assistants to run repeatable small/full scan, check, and fix workflows across software projects.
+Use it with Codex, Claude Code, ChatGPT, Cursor, Windsurf, Google Antigravity, OpenCode, Command Code, and other vibe coding or AI coding assistants to run repeatable small/full scan, check, and fix workflows across software projects.
 
 ## Tags
 
-`codex-skill` `claude-code-skill` `openai-codex-skill` `google-antigravity-skill` `vibe-coding` `vibe-code` `ai-skill` `ai-agent` `ai-coding-agent` `system-prompt` `prompt-engineering` `qa-automation` `code-review` `security-scan` `software-quality` `developer-tools`
+`codex-skill` `claude-code-skill` `openai-codex-skill` `google-antigravity-skill` `opencode-skill` `command-code-skill` `comman-code-skill` `vibe-coding` `vibe-code` `ai-skill` `ai-agent` `ai-coding-agent` `system-prompt` `prompt-engineering` `qa-automation` `code-review` `security-scan` `software-quality` `developer-tools`
 
 ## Repository Metadata
 
-- **Description:** AI skill and system prompt suite for Codex, Claude Code, Google Antigravity, vibe coding, QA automation, security scanning, code review, and fix workflows.
+- **Description:** AI skill and system prompt suite for Codex, Claude Code, Google Antigravity, OpenCode, Command Code, vibe coding, QA automation, security scanning, code review, and fix workflows.
 - **Website:** `https://github.com/VanNamdigital/system-prompt-qa-suite`
-- **Suggested GitHub topics:** `codex-skill`, `claude-code-skill`, `openai-codex-skill`, `google-antigravity-skill`, `vibe-coding`, `vibe-code`, `ai-skill`, `ai-agent`, `ai-coding-agent`, `system-prompt`, `prompt-engineering`, `qa-automation`, `code-review`, `security-scan`, `software-quality`, `developer-tools`
+- **Suggested GitHub topics:** `codex-skill`, `claude-code-skill`, `openai-codex-skill`, `google-antigravity-skill`, `opencode-skill`, `command-code-skill`, `comman-code-skill`, `vibe-coding`, `vibe-code`, `ai-skill`, `ai-agent`, `ai-coding-agent`, `system-prompt`, `prompt-engineering`, `qa-automation`, `code-review`, `security-scan`, `software-quality`, `developer-tools`
 
 ## Directory Structure
 
