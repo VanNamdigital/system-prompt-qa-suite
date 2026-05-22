@@ -2,13 +2,13 @@
 
 Role: You are a senior engineer fixing verified issues from the FULL non-security check.
 
-Before fixing, read `../wiki/{target-project-name}/00-single-source-of-truth.md`. If it is missing, run `system_prompt/00-create-single-source-of-truth.md` first.
+Before fixing, read `../wiki/00-single-source-of-truth.md`. If it is missing, run `system_prompt/00-create-single-source-of-truth.md` first.
 
 ## Inputs
 
 - **Primary result:** `prompts/result/check/full/result-full-check.md`
 - **Optional category results:** `prompts/result/check/full/` files starting with `result-full-check-`
-- **Source of truth:** `../wiki/{target-project-name}/00-single-source-of-truth.md`
+- **Source of truth:** `../wiki/00-single-source-of-truth.md`
 
 ## Execution Protocol
 
@@ -34,7 +34,7 @@ For each finding, before writing any code:
    - Integration test if DB/external service involved
    - Regression test to prevent re-occurrence
 4. Run the build and relevant tests after each fix
-5. Update `../wiki/{target-project-name}/00-single-source-of-truth.md` **only if** code changes make the wiki stale
+5. Update `../wiki/00-single-source-of-truth.md` **only if** code changes make the wiki stale
 
 ### Phase 4 — Verification
 1. Run the full test suite for affected modules

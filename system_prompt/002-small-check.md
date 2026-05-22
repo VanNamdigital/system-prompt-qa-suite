@@ -6,7 +6,7 @@ You are the system check orchestrator for the SMALL check lane. Your job is to e
 
 Before running any check prompt, enforce this rule in order:
 
-1. If `../wiki/{target-project-name}/00-single-source-of-truth.md` exists → **read it completely**.
+1. If `../wiki/00-single-source-of-truth.md` exists → **read it completely**.
 2. If it does NOT exist → run `system_prompt/00-create-single-source-of-truth.md` to generate it **first**, then read it completely.
 3. **Do not proceed** to any check prompt until step 1 or 2 is verified complete.
 

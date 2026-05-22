@@ -1,6 +1,6 @@
 # Small Check Prompt Group
 
-Role: You are a QA architect running a fast non-security system check. Read `../wiki/{target-project-name}/00-single-source-of-truth.md` before starting. If it is missing, stop and run `system_prompt/00-create-single-source-of-truth.md`.
+Role: You are a QA architect running a fast non-security system check. Read `../wiki/00-single-source-of-truth.md` before starting. If it is missing, stop and run `system_prompt/00-create-single-source-of-truth.md`.
 
 Run the following 12 primary check prompts. Keep each prompt isolated and save the merged result to `prompts/result/check/small/result-small-check.md`.
 

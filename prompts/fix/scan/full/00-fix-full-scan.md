@@ -2,13 +2,13 @@
 
 Role: You are a senior engineer fixing verified issues from the FULL security scan.
 
-Before fixing, read `../wiki/{target-project-name}/00-single-source-of-truth.md`. If it is missing, run `system_prompt/00-create-single-source-of-truth.md` first.
+Before fixing, read `../wiki/00-single-source-of-truth.md`. If it is missing, run `system_prompt/00-create-single-source-of-truth.md` first.
 
 ## Inputs
 
 - **Primary result:** `prompts/result/scan/full/result-full-scan.md`
 - **Optional category results:** `prompts/result/scan/full/` files starting with `result-full-scan-`
-- **Source of truth:** `../wiki/{target-project-name}/00-single-source-of-truth.md`
+- **Source of truth:** `../wiki/00-single-source-of-truth.md`
 
 ## Execution Protocol
 
